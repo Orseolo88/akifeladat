@@ -13,21 +13,21 @@ function __autoload($class_name) {
 }
 
 //adatbázis kapcsolódás
-if ($_SERVER['SERVER_NAME'] == 'localhost') {
+if ($_SERVER['SERVER_NAME'] == 'localhost'):
 	$db = new mysqli('localhost', 'root', '', 'akifeladat');
     //hibakiíratás
     ini_set( "display_errors", "1" );
     error_reporting( E_ALL & ~E_NOTICE );
-} else if ($_SERVER['SERVER_NAME'] == 'vivien2007.hu'){
+elseif ($_SERVER['SERVER_NAME'] == 'vivien2007.hu'):
 	$db = new mysqli('localhost', 'vivi_czshop', 'Kosar6066', 'vivi_czshop');
     //hibák elrejtése
     error_reporting(E_ALL ^ E_NOTICE);
     ini_set( "display_errors", "0" );
-}
+endif;
 
-if ($db -> connect_errno > 0) {
+if ($db -> connect_errno > 0):
 	die("Kapcsolódási hiba [" . $mysqli -> connect_error . "]");
-}
+endif;
 $db -> set_charset("utf8");
 
 session_start();

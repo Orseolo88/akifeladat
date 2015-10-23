@@ -1,1 +1,19 @@
 <h1>AKI próbafeladat - Időjárás </h1>
+
+<button type="button" onclick="frissites()">Adatok frissítése</button>
+<div id="adatok">
+
+</div>
+
+<script>
+function frissites() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("adatok").innerHTML = xhttp.responseText;
+    }
+  }
+  xhttp.open("GET", "ajax.php?action=ajaxvalasz", true);
+  xhttp.send();
+}
+</script>
