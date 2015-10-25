@@ -2,6 +2,36 @@
 require_once 'header.php';
 
 switch ($action):
+
+    case 'default_map':
+        $arr_varosok = array();
+        $q_varosok = $db->query("SELECT varos_id, varos_nev, koordinata FROM varosok ORDER BY varos_id");
+        if($q_varosok->num_rows > 0):
+            while($r_varosok = $q_varosok->fetch_assoc()):
+                $arr_varosok[$r_varosok['varos_id']]['varos_neve'] = $r_varosok['varos_nev'];
+                $arr_varosok[$r_varosok['varos_id']]['koordinata'] = $r_varosok['koordinata'];
+            endwhile;
+        endif;
+
+        if(!empty($arr_varosok)):
+            //minden városra meghívjuk a SOAP függvényt
+            foreach($arr_varosok as $varos_id => $varos_adatok):
+                $q_idojaras = $db->query("
+                    SELECT idopont, homerseklet FROM idojaras_adatok WHERE varos_id = $varos_id ORDER BY idopont DESC LIMIT 5");
+                if($q_idojaras->num_rows > 0):
+                    $cnt = 0;
+                    while($r_idojaras = $q_idojaras->fetch_assoc()):
+                        $arr_varosok[$varos_id]['idopontok'][$cnt] = $r_idojaras['idopont'];
+                        $arr_varosok[$varos_id]['homersekletek'][$cnt] = $r_idojaras['homerseklet'];
+                        $cnt++;
+                    endwhile;
+                endif;
+            endforeach;
+        endif;
+
+        print_r($arr_varosok);
+        break;
+
     case 'ajaxvalasz':
 
         //lekérjük a városokat az adatbázisból, amelyeknek az adataira kíváncsiak vagyunk

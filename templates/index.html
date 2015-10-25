@@ -9,6 +9,20 @@
 
 
 <script>
+
+    function default_map() {
+        var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                document.getElementById("adatok").innerHTML = xhttp.responseText;
+            }
+          }
+          xhttp.open("GET", "ajax.php?action=default_map", true);
+          xhttp.send();
+    }
+
+
+
     function frissites() {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {

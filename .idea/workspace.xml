@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function.php" afterPath="$PROJECT_DIR$/function.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout.html" afterPath="$PROJECT_DIR$/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,10 +41,12 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
+            <state line="27" column="13" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-19.852942" vertical-offset="0" max-vertical-offset="2000">
               <folding>
-                <marker date="1445698028514" expanded="true" signature="232:289" placeholder="SELECT varos..varosok..." />
-                <marker date="1445698028514" expanded="true" signature="1273:1409" placeholder="INSERT INTO ..." />
+                <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+                <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+                <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
+                <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -54,8 +55,10 @@
       <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-              <folding />
+            <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1650">
+              <folding>
+                <element signature="n#getWeather#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,20 +66,22 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="666" selection-end="666" vertical-scroll-proportion="0.25655645" vertical-offset="350" max-vertical-offset="2750">
+            <state line="18" column="11" selection-start="499" selection-end="499" vertical-scroll-proportion="0.17142858" vertical-offset="300" max-vertical-offset="3100">
               <folding>
                 <element signature="tag#div#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#231#559#0" expanded="true" />
-                <element signature="e#317#472#0" expanded="true" />
-                <element signature="e#962#1240#0" expanded="true" />
-                <element signature="e#1344#1650#0" expanded="true" />
-                <element signature="e#1576#1644#0" expanded="true" />
-                <element signature="e#1702#1729#0" expanded="true" />
-                <element signature="e#1932#2068#0" expanded="true" />
-                <element signature="e#2175#2312#0" expanded="true" />
-                <element signature="e#2203#2304#0" expanded="true" />
-                <element signature="e#2555#2845#0" expanded="true" />
+                <element signature="e#326#499#0" expanded="true" />
+                <element signature="e#624#952#0" expanded="true" />
+                <element signature="e#710#865#0" expanded="true" />
+                <element signature="e#1058#1221#0" expanded="true" />
+                <element signature="e#1355#1633#0" expanded="true" />
+                <element signature="e#1737#2043#0" expanded="true" />
+                <element signature="e#1969#2037#0" expanded="true" />
+                <element signature="e#2095#2122#0" expanded="true" />
+                <element signature="e#2325#2461#0" expanded="true" />
+                <element signature="e#2568#2705#0" expanded="true" />
+                <element signature="e#2596#2697#0" expanded="true" />
+                <element signature="e#2948#3238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +90,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
+            <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="-20.588236" vertical-offset="150" max-vertical-offset="1025">
               <folding />
             </state>
           </provider>
@@ -94,8 +99,13 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-              <folding />
+            <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="550">
+              <folding>
+                <element signature="tag#head#0;tag#html#0" expanded="true" />
+                <element signature="tag#body#0;tag#html#0" expanded="true" />
+                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,10 +128,10 @@
         <option value="$PROJECT_DIR$/css/page.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/function.php" />
-        <option value="$PROJECT_DIR$/ajax.php" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/function.php" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/ajax.php" />
       </list>
     </option>
   </component>
@@ -287,20 +297,25 @@
       <created>1445617016997</created>
       <updated>1445617016997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="google map api&#10;">
+      <created>1445766130393</created>
+      <updated>1445766130393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23216188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23216188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -310,7 +325,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -353,7 +367,8 @@
     <MESSAGE value="index.php" />
     <MESSAGE value="index.php&#10;" />
     <MESSAGE value="ajax megjelenijk&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax megjelenijk&#10;" />
+    <MESSAGE value="google map api&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="google map api&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -370,8 +385,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445698028514" expanded="true" signature="232:289" placeholder="SELECT varos..varosok..." />
-            <marker date="1445698028514" expanded="true" signature="1273:1409" placeholder="INSERT INTO ..." />
+            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -379,7 +396,9 @@
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-          <folding />
+          <folding>
+            <element signature="n#getWeather#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,16 +408,18 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#231#559#0" expanded="true" />
-            <element signature="e#317#472#0" expanded="true" />
-            <element signature="e#962#1240#0" expanded="true" />
-            <element signature="e#1344#1650#0" expanded="true" />
-            <element signature="e#1576#1644#0" expanded="true" />
-            <element signature="e#1702#1729#0" expanded="true" />
-            <element signature="e#1932#2068#0" expanded="true" />
-            <element signature="e#2175#2312#0" expanded="true" />
-            <element signature="e#2203#2304#0" expanded="true" />
-            <element signature="e#2555#2845#0" expanded="true" />
+            <element signature="e#326#499#0" expanded="true" />
+            <element signature="e#624#952#0" expanded="true" />
+            <element signature="e#710#865#0" expanded="true" />
+            <element signature="e#1058#1221#0" expanded="true" />
+            <element signature="e#1355#1633#0" expanded="true" />
+            <element signature="e#1737#2043#0" expanded="true" />
+            <element signature="e#1969#2037#0" expanded="true" />
+            <element signature="e#2095#2122#0" expanded="true" />
+            <element signature="e#2325#2461#0" expanded="true" />
+            <element signature="e#2568#2705#0" expanded="true" />
+            <element signature="e#2596#2697#0" expanded="true" />
+            <element signature="e#2948#3238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,7 +434,12 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-          <folding />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="true" />
+            <element signature="tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -428,8 +454,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445698028514" expanded="true" signature="232:289" placeholder="SELECT varos..varosok..." />
-            <marker date="1445698028514" expanded="true" signature="1273:1409" placeholder="INSERT INTO ..." />
+            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -437,7 +465,9 @@
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-          <folding />
+          <folding>
+            <element signature="n#getWeather#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,16 +477,18 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#231#559#0" expanded="true" />
-            <element signature="e#317#472#0" expanded="true" />
-            <element signature="e#962#1240#0" expanded="true" />
-            <element signature="e#1344#1650#0" expanded="true" />
-            <element signature="e#1576#1644#0" expanded="true" />
-            <element signature="e#1702#1729#0" expanded="true" />
-            <element signature="e#1932#2068#0" expanded="true" />
-            <element signature="e#2175#2312#0" expanded="true" />
-            <element signature="e#2203#2304#0" expanded="true" />
-            <element signature="e#2555#2845#0" expanded="true" />
+            <element signature="e#326#499#0" expanded="true" />
+            <element signature="e#624#952#0" expanded="true" />
+            <element signature="e#710#865#0" expanded="true" />
+            <element signature="e#1058#1221#0" expanded="true" />
+            <element signature="e#1355#1633#0" expanded="true" />
+            <element signature="e#1737#2043#0" expanded="true" />
+            <element signature="e#1969#2037#0" expanded="true" />
+            <element signature="e#2095#2122#0" expanded="true" />
+            <element signature="e#2325#2461#0" expanded="true" />
+            <element signature="e#2568#2705#0" expanded="true" />
+            <element signature="e#2596#2697#0" expanded="true" />
+            <element signature="e#2948#3238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -471,7 +503,12 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-          <folding />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="true" />
+            <element signature="tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,8 +523,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="700">
           <folding>
-            <marker date="1445698028514" expanded="true" signature="232:289" placeholder="SELECT varos..varosok..." />
-            <marker date="1445698028514" expanded="true" signature="1273:1409" placeholder="INSERT INTO ..." />
+            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -498,16 +537,18 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#231#559#0" expanded="true" />
-            <element signature="e#317#472#0" expanded="true" />
-            <element signature="e#962#1240#0" expanded="true" />
-            <element signature="e#1344#1650#0" expanded="true" />
-            <element signature="e#1576#1644#0" expanded="true" />
-            <element signature="e#1702#1729#0" expanded="true" />
-            <element signature="e#1932#2068#0" expanded="true" />
-            <element signature="e#2175#2312#0" expanded="true" />
-            <element signature="e#2203#2304#0" expanded="true" />
-            <element signature="e#2555#2845#0" expanded="true" />
+            <element signature="e#326#499#0" expanded="true" />
+            <element signature="e#624#952#0" expanded="true" />
+            <element signature="e#710#865#0" expanded="true" />
+            <element signature="e#1058#1221#0" expanded="true" />
+            <element signature="e#1355#1633#0" expanded="true" />
+            <element signature="e#1737#2043#0" expanded="true" />
+            <element signature="e#1969#2037#0" expanded="true" />
+            <element signature="e#2095#2122#0" expanded="true" />
+            <element signature="e#2325#2461#0" expanded="true" />
+            <element signature="e#2568#2705#0" expanded="true" />
+            <element signature="e#2596#2697#0" expanded="true" />
+            <element signature="e#2948#3238#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,7 +563,12 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="525">
-          <folding />
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="true" />
+            <element signature="tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,51 +601,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
+        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1650">
           <folding>
-            <marker date="1445698028514" expanded="true" signature="232:289" placeholder="SELECT varos..varosok..." />
-            <marker date="1445698028514" expanded="true" signature="1273:1409" placeholder="INSERT INTO ..." />
+            <element signature="n#getWeather#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
+        <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="-20.588236" vertical-offset="150" max-vertical-offset="1025">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-          <folding />
+        <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="550">
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="true" />
+            <element signature="tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-19.852942" vertical-offset="0" max-vertical-offset="2000">
+          <folding>
+            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
+            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="666" selection-end="666" vertical-scroll-proportion="0.25655645" vertical-offset="350" max-vertical-offset="2750">
+        <state line="18" column="11" selection-start="499" selection-end="499" vertical-scroll-proportion="0.17142858" vertical-offset="300" max-vertical-offset="3100">
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#231#559#0" expanded="true" />
-            <element signature="e#317#472#0" expanded="true" />
-            <element signature="e#962#1240#0" expanded="true" />
-            <element signature="e#1344#1650#0" expanded="true" />
-            <element signature="e#1576#1644#0" expanded="true" />
-            <element signature="e#1702#1729#0" expanded="true" />
-            <element signature="e#1932#2068#0" expanded="true" />
-            <element signature="e#2175#2312#0" expanded="true" />
-            <element signature="e#2203#2304#0" expanded="true" />
-            <element signature="e#2555#2845#0" expanded="true" />
+            <element signature="e#326#499#0" expanded="true" />
+            <element signature="e#624#952#0" expanded="true" />
+            <element signature="e#710#865#0" expanded="true" />
+            <element signature="e#1058#1221#0" expanded="true" />
+            <element signature="e#1355#1633#0" expanded="true" />
+            <element signature="e#1737#2043#0" expanded="true" />
+            <element signature="e#1969#2037#0" expanded="true" />
+            <element signature="e#2095#2122#0" expanded="true" />
+            <element signature="e#2325#2461#0" expanded="true" />
+            <element signature="e#2568#2705#0" expanded="true" />
+            <element signature="e#2596#2697#0" expanded="true" />
+            <element signature="e#2948#3238#0" expanded="true" />
           </folding>
         </state>
       </provider>
