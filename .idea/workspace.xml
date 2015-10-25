@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c8d82f6-134c-4af1-8642-41fa8afbef31" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function.php" afterPath="$PROJECT_DIR$/function.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layout.html" afterPath="$PROJECT_DIR$/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="akifeladat.iws" />
@@ -29,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-0.0" vertical-offset="300" max-vertical-offset="1650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
+            <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="350">
               <folding />
             </state>
           </provider>
@@ -41,23 +48,12 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-19.852942" vertical-offset="0" max-vertical-offset="2000">
+            <state line="5" column="21" selection-start="63" selection-end="74" vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="2000">
               <folding>
-                <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-                <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-                <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
-                <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1650">
-              <folding>
-                <element signature="n#getWeather#0;n#!!top" expanded="true" />
+                <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+                <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+                <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+                <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -66,22 +62,21 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="11" selection-start="499" selection-end="499" vertical-scroll-proportion="0.17142858" vertical-offset="300" max-vertical-offset="3100">
+            <state line="22" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.5714286" vertical-offset="50" max-vertical-offset="3300">
               <folding>
                 <element signature="tag#div#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#326#499#0" expanded="true" />
-                <element signature="e#624#952#0" expanded="true" />
-                <element signature="e#710#865#0" expanded="true" />
-                <element signature="e#1058#1221#0" expanded="true" />
-                <element signature="e#1355#1633#0" expanded="true" />
-                <element signature="e#1737#2043#0" expanded="true" />
-                <element signature="e#1969#2037#0" expanded="true" />
-                <element signature="e#2095#2122#0" expanded="true" />
-                <element signature="e#2325#2461#0" expanded="true" />
-                <element signature="e#2568#2705#0" expanded="true" />
-                <element signature="e#2596#2697#0" expanded="true" />
-                <element signature="e#2948#3238#0" expanded="true" />
+                <element signature="e#869#1197#0" expanded="true" />
+                <element signature="e#955#1110#0" expanded="true" />
+                <element signature="e#1303#1466#0" expanded="true" />
+                <element signature="e#1600#1878#0" expanded="true" />
+                <element signature="e#1982#2288#0" expanded="true" />
+                <element signature="e#2214#2282#0" expanded="true" />
+                <element signature="e#2340#2367#0" expanded="true" />
+                <element signature="e#2570#2706#0" expanded="true" />
+                <element signature="e#2813#2950#0" expanded="true" />
+                <element signature="e#2841#2942#0" expanded="true" />
+                <element signature="e#3193#3483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +85,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="-20.588236" vertical-offset="150" max-vertical-offset="1025">
+            <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
               <folding />
             </state>
           </provider>
@@ -99,13 +94,8 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="550">
-              <folding>
-                <element signature="tag#head#0;tag#html#0" expanded="true" />
-                <element signature="tag#body#0;tag#html#0" expanded="true" />
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-              </folding>
+            <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="550">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,8 +120,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/function.php" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -168,7 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,6 +220,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,33 +291,37 @@
       <created>1445766130393</created>
       <updated>1445766130393</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="google map api&#10;">
+      <created>1445784534652</created>
+      <updated>1445784534652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23216188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -347,9 +341,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -374,6 +368,67 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2000">
+          <folding>
+            <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="3175">
+          <folding>
+            <element signature="tag#div#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#869#1197#0" expanded="true" />
+            <element signature="e#955#1110#0" expanded="true" />
+            <element signature="e#1303#1466#0" expanded="true" />
+            <element signature="e#1600#1878#0" expanded="true" />
+            <element signature="e#1982#2288#0" expanded="true" />
+            <element signature="e#2214#2282#0" expanded="true" />
+            <element signature="e#2340#2367#0" expanded="true" />
+            <element signature="e#2570#2706#0" expanded="true" />
+            <element signature="e#2813#2950#0" expanded="true" />
+            <element signature="e#2841#2942#0" expanded="true" />
+            <element signature="e#3193#3483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="350">
@@ -385,10 +440,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
+            <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -396,9 +451,7 @@
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-          <folding>
-            <element signature="n#getWeather#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -408,18 +461,17 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#326#499#0" expanded="true" />
-            <element signature="e#624#952#0" expanded="true" />
-            <element signature="e#710#865#0" expanded="true" />
-            <element signature="e#1058#1221#0" expanded="true" />
-            <element signature="e#1355#1633#0" expanded="true" />
-            <element signature="e#1737#2043#0" expanded="true" />
-            <element signature="e#1969#2037#0" expanded="true" />
-            <element signature="e#2095#2122#0" expanded="true" />
-            <element signature="e#2325#2461#0" expanded="true" />
-            <element signature="e#2568#2705#0" expanded="true" />
-            <element signature="e#2596#2697#0" expanded="true" />
-            <element signature="e#2948#3238#0" expanded="true" />
+            <element signature="e#869#1197#0" expanded="true" />
+            <element signature="e#955#1110#0" expanded="true" />
+            <element signature="e#1303#1466#0" expanded="true" />
+            <element signature="e#1600#1878#0" expanded="true" />
+            <element signature="e#1982#2288#0" expanded="true" />
+            <element signature="e#2214#2282#0" expanded="true" />
+            <element signature="e#2340#2367#0" expanded="true" />
+            <element signature="e#2570#2706#0" expanded="true" />
+            <element signature="e#2813#2950#0" expanded="true" />
+            <element signature="e#2841#2942#0" expanded="true" />
+            <element signature="e#3193#3483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,12 +486,7 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="true" />
-            <element signature="tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,10 +501,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
+            <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -465,9 +512,7 @@
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="33" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="750">
-          <folding>
-            <element signature="n#getWeather#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,18 +522,17 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#326#499#0" expanded="true" />
-            <element signature="e#624#952#0" expanded="true" />
-            <element signature="e#710#865#0" expanded="true" />
-            <element signature="e#1058#1221#0" expanded="true" />
-            <element signature="e#1355#1633#0" expanded="true" />
-            <element signature="e#1737#2043#0" expanded="true" />
-            <element signature="e#1969#2037#0" expanded="true" />
-            <element signature="e#2095#2122#0" expanded="true" />
-            <element signature="e#2325#2461#0" expanded="true" />
-            <element signature="e#2568#2705#0" expanded="true" />
-            <element signature="e#2596#2697#0" expanded="true" />
-            <element signature="e#2948#3238#0" expanded="true" />
+            <element signature="e#869#1197#0" expanded="true" />
+            <element signature="e#955#1110#0" expanded="true" />
+            <element signature="e#1303#1466#0" expanded="true" />
+            <element signature="e#1600#1878#0" expanded="true" />
+            <element signature="e#1982#2288#0" expanded="true" />
+            <element signature="e#2214#2282#0" expanded="true" />
+            <element signature="e#2340#2367#0" expanded="true" />
+            <element signature="e#2570#2706#0" expanded="true" />
+            <element signature="e#2813#2950#0" expanded="true" />
+            <element signature="e#2841#2942#0" expanded="true" />
+            <element signature="e#3193#3483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,12 +547,7 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="79" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="550">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="true" />
-            <element signature="tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -523,10 +562,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="700">
           <folding>
-            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
+            <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -537,18 +576,17 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#326#499#0" expanded="true" />
-            <element signature="e#624#952#0" expanded="true" />
-            <element signature="e#710#865#0" expanded="true" />
-            <element signature="e#1058#1221#0" expanded="true" />
-            <element signature="e#1355#1633#0" expanded="true" />
-            <element signature="e#1737#2043#0" expanded="true" />
-            <element signature="e#1969#2037#0" expanded="true" />
-            <element signature="e#2095#2122#0" expanded="true" />
-            <element signature="e#2325#2461#0" expanded="true" />
-            <element signature="e#2568#2705#0" expanded="true" />
-            <element signature="e#2596#2697#0" expanded="true" />
-            <element signature="e#2948#3238#0" expanded="true" />
+            <element signature="e#869#1197#0" expanded="true" />
+            <element signature="e#955#1110#0" expanded="true" />
+            <element signature="e#1303#1466#0" expanded="true" />
+            <element signature="e#1600#1878#0" expanded="true" />
+            <element signature="e#1982#2288#0" expanded="true" />
+            <element signature="e#2214#2282#0" expanded="true" />
+            <element signature="e#2340#2367#0" expanded="true" />
+            <element signature="e#2570#2706#0" expanded="true" />
+            <element signature="e#2813#2950#0" expanded="true" />
+            <element signature="e#2841#2942#0" expanded="true" />
+            <element signature="e#3193#3483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -563,12 +601,7 @@
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="17" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="525">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="true" />
-            <element signature="tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -592,71 +625,70 @@
         <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.08250825" vertical-offset="0" max-vertical-offset="909" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1650">
-          <folding>
-            <element signature="n#getWeather#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="-20.588236" vertical-offset="150" max-vertical-offset="1025">
+        <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="550">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="true" />
-            <element signature="tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="true" />
-          </folding>
+        <state line="9" column="16" selection-start="263" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="350">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-19.852942" vertical-offset="0" max-vertical-offset="2000">
+        <state line="5" column="21" selection-start="63" selection-end="74" vertical-scroll-proportion="-3.6764705" vertical-offset="0" max-vertical-offset="2000">
           <folding>
-            <marker date="1445782907355" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445782907355" expanded="true" signature="1558:1615" placeholder="SELECT varos..varosok..." />
-            <marker date="1445782907355" expanded="true" signature="2599:2735" placeholder="INSERT INTO ..." />
+            <marker date="1445785614244" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445785614244" expanded="true" signature="1567:1624" placeholder="SELECT varos..varosok..." />
+            <marker date="1445785614244" expanded="true" signature="2608:2744" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1175" column="50" selection-start="17693" selection-end="17744" vertical-scroll-proportion="0.55214053" vertical-offset="11772" max-vertical-offset="48225">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="499" selection-end="499" vertical-scroll-proportion="0.17142858" vertical-offset="300" max-vertical-offset="3100">
+        <state line="22" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.5714286" vertical-offset="50" max-vertical-offset="3300">
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#326#499#0" expanded="true" />
-            <element signature="e#624#952#0" expanded="true" />
-            <element signature="e#710#865#0" expanded="true" />
-            <element signature="e#1058#1221#0" expanded="true" />
-            <element signature="e#1355#1633#0" expanded="true" />
-            <element signature="e#1737#2043#0" expanded="true" />
-            <element signature="e#1969#2037#0" expanded="true" />
-            <element signature="e#2095#2122#0" expanded="true" />
-            <element signature="e#2325#2461#0" expanded="true" />
-            <element signature="e#2568#2705#0" expanded="true" />
-            <element signature="e#2596#2697#0" expanded="true" />
-            <element signature="e#2948#3238#0" expanded="true" />
+            <element signature="e#869#1197#0" expanded="true" />
+            <element signature="e#955#1110#0" expanded="true" />
+            <element signature="e#1303#1466#0" expanded="true" />
+            <element signature="e#1600#1878#0" expanded="true" />
+            <element signature="e#1982#2288#0" expanded="true" />
+            <element signature="e#2214#2282#0" expanded="true" />
+            <element signature="e#2340#2367#0" expanded="true" />
+            <element signature="e#2570#2706#0" expanded="true" />
+            <element signature="e#2813#2950#0" expanded="true" />
+            <element signature="e#2841#2942#0" expanded="true" />
+            <element signature="e#3193#3483#0" expanded="true" />
           </folding>
         </state>
       </provider>

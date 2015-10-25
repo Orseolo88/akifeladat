@@ -11,10 +11,18 @@
 <script>
 
     function default_map() {
+        var result = [];
         var xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
                 document.getElementById("adatok").innerHTML = xhttp.responseText;
+                var jsonresp = JSON.parse(xhttp.responseText);
+                alert(jsonresp);
+                for(var i in jsonresp)
+                    result.push([i, jsonresp [i]]);
+
+                alert(result);
+
             }
           }
           xhttp.open("GET", "ajax.php?action=default_map", true);

@@ -29,7 +29,7 @@ switch ($action):
             endforeach;
         endif;
 
-        print_r($arr_varosok);
+        echo json_encode($arr_varosok);
         break;
 
     case 'ajaxvalasz':
