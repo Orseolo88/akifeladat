@@ -20,7 +20,7 @@ if($q_varosok->num_rows > 0):
 endif;
 
 header("Content-type: text/csv");
-header("Content-Disposition: attachment; filename=report.csv");
+header("Content-Disposition: attachment; filename=idojaras.csv");
 header("Pragma: no-cache");
 header("Expires: 0");
 
