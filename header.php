@@ -12,6 +12,8 @@ function __autoload($class_name) {
 	include $file;
 }
 
+$NOW = date("Y-m-d H:i:s");
+
 //adatbázis kapcsolódás
 if ($_SERVER['SERVER_NAME'] == 'localhost'):
 	$db = new mysqli('localhost', 'root', '', 'akifeladat');

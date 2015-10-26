@@ -60,10 +60,11 @@ switch ($action):
             foreach($arr_varosok as $varos_id => $varos_adatok):
                 $q_beszur = $db->prepare("
                     INSERT INTO idojaras_adatok
-                    (varos_id, homerseklet, paratartalom, legnyomas)
-                    VALUES (?, ?, ?, ?)
+                    (varos_id, homerseklet, paratartalom, legnyomas, idopont)
+                    VALUES (?, ?, ?, ?, ?)
                 ");
-                $q_beszur->bind_param("isss", $varos_id, $varos_adatok['homerseklet'], $varos_adatok['paratartalom'], $varos_adatok['legnyomas']);
+                $q_beszur->bind_param("issss", $varos_id, $varos_adatok['homerseklet'],
+                    $varos_adatok['paratartalom'], $varos_adatok['legnyomas'], $NOW);
                 $q_beszur->execute();
                 $q_beszur->close();
             endforeach;

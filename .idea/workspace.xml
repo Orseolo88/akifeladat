@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8d82f6-134c-4af1-8642-41fa8afbef31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/export_xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/export_csv.php" afterPath="$PROJECT_DIR$/export_csv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="akifeladat.iws" />
@@ -46,15 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ajax.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="58" selection-start="265" selection-end="311" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="2025">
+            <state line="40" column="21" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.4857143" vertical-offset="575" max-vertical-offset="2050">
               <folding>
-                <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-                <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-                <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-                <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+                <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+                <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+                <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+                <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -72,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="export_xml.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="export_xml.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/export_xml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.63805103" vertical-offset="0" max-vertical-offset="975">
+            <state line="22" column="14" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-16.17647" vertical-offset="0" max-vertical-offset="975">
               <folding>
                 <marker date="1445897957877" expanded="true" signature="75:115" placeholder="..." />
                 <marker date="1445897957877" expanded="true" signature="78:376" placeholder="..." />
@@ -120,8 +119,10 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="74" selection-start="576" selection-end="587" vertical-scroll-proportion="-4.4117646" vertical-offset="150" max-vertical-offset="1025">
-              <folding />
+            <state line="14" column="4" selection-start="237" selection-end="241" vertical-scroll-proportion="-10.294118" vertical-offset="0" max-vertical-offset="1300">
+              <folding>
+                <element signature="n#__autoload#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,15 +143,15 @@
         <option value="$PROJECT_DIR$/classes/template_class.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/css/page.css" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/function.php" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
-        <option value="$PROJECT_DIR$/ajax.php" />
         <option value="$PROJECT_DIR$/proba.php" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/export_csv.php" />
         <option value="$PROJECT_DIR$/export_xml.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
       </list>
     </option>
   </component>
@@ -320,7 +321,11 @@
       <created>1445893826783</created>
       <updated>1445893826783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="export xml-be&#10;">
+      <created>1445897992139</created>
+      <updated>1445897992139</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -392,7 +397,8 @@
     <MESSAGE value="google map buborékok&#10;" />
     <MESSAGE value="térkép frissül&#10;" />
     <MESSAGE value="export csv-be&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="export csv-be&#10;" />
+    <MESSAGE value="export xml-be&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="export xml-be&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -402,10 +408,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -441,7 +447,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -463,10 +471,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="47" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="611" max-vertical-offset="2650">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -502,7 +510,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,10 +534,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="19" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2000">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -563,7 +573,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,10 +602,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="19" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2000">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -629,7 +641,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,10 +663,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -695,7 +709,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,10 +731,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -761,7 +777,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,10 +799,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="700">
           <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -820,7 +838,9 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1250">
-          <folding />
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -875,25 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="74" selection-start="576" selection-end="587" vertical-scroll-proportion="-4.4117646" vertical-offset="150" max-vertical-offset="1025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="58" selection-start="265" selection-end="311" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="2025">
-          <folding>
-            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
-            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="39" selection-start="295" selection-end="295" vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="4125">
@@ -941,13 +942,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/export_xml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.63805103" vertical-offset="0" max-vertical-offset="975">
+        <state line="22" column="14" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-16.17647" vertical-offset="0" max-vertical-offset="975">
           <folding>
             <marker date="1445897957877" expanded="true" signature="75:115" placeholder="..." />
             <marker date="1445897957877" expanded="true" signature="78:376" placeholder="..." />
             <marker date="1445897957877" expanded="true" signature="78:376" placeholder="..." />
             <marker date="1445897957877" expanded="true" signature="222:261" placeholder="SELECT varos..varosok..." />
             <marker date="1445897957877" expanded="true" signature="424:521" placeholder="SELECT idopo..idojaras_adatok..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="237" selection-end="241" vertical-scroll-proportion="-10.294118" vertical-offset="0" max-vertical-offset="1300">
+          <folding>
+            <element signature="n#__autoload#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.4857143" vertical-offset="575" max-vertical-offset="2050">
+          <folding>
+            <marker date="1445898796861" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445898796861" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445898796861" expanded="true" signature="2609:2757" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
