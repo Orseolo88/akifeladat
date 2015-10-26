@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8d82f6-134c-4af1-8642-41fa8afbef31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adatbazis.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="akifeladat.iws" />
@@ -325,7 +324,11 @@
       <created>1445897992139</created>
       <updated>1445897992139</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="kisebb módosítások">
+      <created>1445899028237</created>
+      <updated>1445899028237</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -398,7 +401,8 @@
     <MESSAGE value="térkép frissül&#10;" />
     <MESSAGE value="export csv-be&#10;" />
     <MESSAGE value="export xml-be&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="export xml-be&#10;" />
+    <MESSAGE value="kisebb módosítások" />
+    <option name="LAST_COMMIT_MESSAGE" value="kisebb módosítások" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
