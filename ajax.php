@@ -29,35 +29,6 @@ switch ($action):
             endforeach;
         endif;
 
-        /*
-        $response_tmp = "";
-        foreach($arr_varosok as $varos_id => $varos_adatok):
-            $response_tmp .= "<div id='$varos_id'>";
-            $response_tmp .= "<input type='hidden' name='varos_neve' value='{$varos_adatok['varos_neve']}'/>";
-            $response_tmp .= "<input type='hidden' name='koordinata' value='{$varos_adatok['koordinata']}'/>";
-            $response_tmp .= "<div class='homersekletek'>";
-            $cnt = 0;
-            foreach($varos_adatok['homersekletek'] as $homerseklet):
-                $response_tmp .= "<input type='hidden' name='homer_$cnt' value='"
-                    .$varos_adatok['homersekletek'][$cnt]."'/>";
-                $cnt++;
-            endforeach;
-            $response_tmp .= "</div>";
-            $response_tmp .= "<div class='idopontok'>";
-            $cnt = 0;
-            foreach($varos_adatok['idopontok'] as $homerseklet):
-                $response_tmp .= "<input type='hidden' name='idop_$cnt' value='"
-                    .$varos_adatok['idopontok'][$cnt]."'/>";
-                $cnt++;
-            endforeach;
-            $response_tmp .= "</div>";
-            $response_tmp .= "</div>";
-        endforeach;
-
-
-        echo $response_tmp;
-        */
-
         echo json_encode($arr_varosok);
 
         break;
@@ -98,7 +69,7 @@ switch ($action):
             endforeach;
         endif;
 
-        echo "kész";
+        header("Location: ajax.php?action=default_map");
         break;
 endswitch;
 

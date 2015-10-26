@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8d82f6-134c-4af1-8642-41fa8afbef31" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,12 +48,12 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
+            <state line="71" column="53" selection-start="3080" selection-end="3080" vertical-scroll-proportion="-20.205883" vertical-offset="1088" max-vertical-offset="2025">
               <folding>
-                <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-                <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-                <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-                <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+                <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+                <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+                <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+                <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -61,24 +62,24 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="18" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.31128848" vertical-offset="1127" max-vertical-offset="4175">
+            <state line="34" column="36" selection-start="866" selection-end="866" vertical-scroll-proportion="0.5714286" vertical-offset="350" max-vertical-offset="4025">
               <folding>
                 <element signature="tag#div#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#252#1288#0" expanded="true" />
-                <element signature="e#270#571#0" expanded="true" />
-                <element signature="e#396#441#0" expanded="true" />
-                <element signature="e#481#561#0" expanded="true" />
-                <element signature="e#2220#2530#0" expanded="true" />
-                <element signature="e#2642#2988#0" expanded="true" />
-                <element signature="e#2902#2978#0" expanded="true" />
-                <element signature="e#3044#3079#0" expanded="true" />
-                <element signature="e#3302#3454#0" expanded="true" />
-                <element signature="e#3569#3726#0" expanded="true" />
-                <element signature="e#3601#3714#0" expanded="true" />
-                <element signature="e#3998#4336#0" expanded="true" />
-                <element signature="e#4391#4719#0" expanded="true" />
-                <element signature="e#4477#4632#0" expanded="true" />
+                <element signature="e#743#788#0" expanded="true" />
+                <element signature="e#1009#1307#0" expanded="true" />
+                <element signature="e#1026#1299#0" expanded="true" />
+                <element signature="e#1152#1197#0" expanded="true" />
+                <element signature="e#1237#1289#0" expanded="true" />
+                <element signature="e#1343#4383#0" expanded="true" />
+                <element signature="e#2239#2549#0" expanded="true" />
+                <element signature="e#2661#3007#0" expanded="true" />
+                <element signature="e#2921#2997#0" expanded="true" />
+                <element signature="e#3063#3098#0" expanded="true" />
+                <element signature="e#3321#3473#0" expanded="true" />
+                <element signature="e#3588#3745#0" expanded="true" />
+                <element signature="e#3620#3733#0" expanded="true" />
+                <element signature="e#4017#4355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +88,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
+            <state line="21" column="74" selection-start="576" selection-end="587" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1025">
               <folding />
             </state>
           </provider>
@@ -314,13 +315,18 @@
       <created>1445882386652</created>
       <updated>1445882386652</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="google map buborékok&#10;">
+      <created>1445887496971</created>
+      <updated>1445887496971</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -337,7 +343,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -383,7 +388,8 @@
     <MESSAGE value="google map api&#10;" />
     <MESSAGE value="google map api + ajax adatok + jquery&#10;" />
     <MESSAGE value="ajax&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax&#10;" />
+    <MESSAGE value="google map buborékok&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="google map buborékok&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -407,10 +413,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -421,20 +427,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,10 +470,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="47" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="611" max-vertical-offset="2650">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -478,20 +484,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -521,10 +527,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="19" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="2000">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -535,20 +541,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,10 +589,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="19" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2000">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -597,20 +603,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,10 +644,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -659,20 +665,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,10 +706,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="55" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1250">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -721,20 +727,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -762,10 +768,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="700">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -776,20 +782,20 @@
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -833,19 +839,14 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1179" column="37" selection-start="17815" selection-end="17815" vertical-scroll-proportion="0.6083608" vertical-offset="11772" max-vertical-offset="48225" />
+        <state line="1179" column="37" selection-start="17815" selection-end="17815" vertical-scroll-proportion="0.6083608" vertical-offset="11772" max-vertical-offset="48225">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
           <folding />
         </state>
       </provider>
@@ -857,38 +858,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="74" selection-start="576" selection-end="587" vertical-scroll-proportion="-8.823529" vertical-offset="0" max-vertical-offset="1025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
+        <state line="71" column="53" selection-start="3080" selection-end="3080" vertical-scroll-proportion="-20.205883" vertical-offset="1088" max-vertical-offset="2025">
           <folding>
-            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
-            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
-            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+            <marker date="1445890453980" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445890453980" expanded="true" signature="1568:1625" placeholder="SELECT varos..varosok..." />
+            <marker date="1445890453980" expanded="true" signature="2609:2745" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.31128848" vertical-offset="1127" max-vertical-offset="4175">
+        <state line="34" column="36" selection-start="866" selection-end="866" vertical-scroll-proportion="0.5714286" vertical-offset="350" max-vertical-offset="4025">
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#252#1288#0" expanded="true" />
-            <element signature="e#270#571#0" expanded="true" />
-            <element signature="e#396#441#0" expanded="true" />
-            <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#2220#2530#0" expanded="true" />
-            <element signature="e#2642#2988#0" expanded="true" />
-            <element signature="e#2902#2978#0" expanded="true" />
-            <element signature="e#3044#3079#0" expanded="true" />
-            <element signature="e#3302#3454#0" expanded="true" />
-            <element signature="e#3569#3726#0" expanded="true" />
-            <element signature="e#3601#3714#0" expanded="true" />
-            <element signature="e#3998#4336#0" expanded="true" />
-            <element signature="e#4391#4719#0" expanded="true" />
-            <element signature="e#4477#4632#0" expanded="true" />
+            <element signature="e#743#788#0" expanded="true" />
+            <element signature="e#1009#1307#0" expanded="true" />
+            <element signature="e#1026#1299#0" expanded="true" />
+            <element signature="e#1152#1197#0" expanded="true" />
+            <element signature="e#1237#1289#0" expanded="true" />
+            <element signature="e#1343#4383#0" expanded="true" />
+            <element signature="e#2239#2549#0" expanded="true" />
+            <element signature="e#2661#3007#0" expanded="true" />
+            <element signature="e#2921#2997#0" expanded="true" />
+            <element signature="e#3063#3098#0" expanded="true" />
+            <element signature="e#3321#3473#0" expanded="true" />
+            <element signature="e#3588#3745#0" expanded="true" />
+            <element signature="e#3620#3733#0" expanded="true" />
+            <element signature="e#4017#4355#0" expanded="true" />
           </folding>
         </state>
       </provider>

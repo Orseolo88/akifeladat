@@ -10,9 +10,35 @@
 
 <script>
 
-    var idk = [];
-    function default_map() {
+    /*
+    function frissites() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          document.getElementById("adatok").innerHTML = xhttp.responseText;
+        }
+      }
+      xhttp.open("GET", "ajax.php?action=ajaxvalasz", true);
+      xhttp.send();
+    }
+    */
 
+    function frissites() {
+        $.ajax({
+            type : 'POST',
+            dataType: 'json',
+            url : 'ajax.php?action=ajaxvalasz',
+            data: {
+            'data': 'ezmegaz'
+            },
+            success: function( data ) {
+                mapmegjelenit(data);
+                document.getElementById("adatok").innerHTML = 'Adatok frissítve';
+            }
+        });
+    }
+
+    function default_map() {
         $.ajax({
             type : 'POST',
             dataType: 'json',
@@ -21,32 +47,9 @@
             'data': 'ezmegaz'
             },
             success: function( data ) {
-            //console.log(data);
-            mapmegjelenit(data)
+                mapmegjelenit(data);
             }
         });
-
-
-        /*
-        var xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function() {
-            if (xhttp.readyState == 4 && xhttp.status == 200) {
-                document.getElementById("adatok").innerHTML = xhttp.responseText;
-                $('#adatok').children().each(function(){
-                    idk.push(this.id);
-                    /*
-                    $('#'+this.id).children().each(function(){
-                         alert(this.value);
-                    });
-                    */
-        /*
-                });
-                kiir(idk);
-            }
-          }
-          xhttp.open("GET", "ajax.php?action=default_map", true);
-          xhttp.send();
-        */
     }
 
     function mapmegjelenit(adatok){
@@ -141,16 +144,7 @@
         autoCenter();
     }
 
-    function frissites() {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (xhttp.readyState == 4 && xhttp.status == 200) {
-          document.getElementById("adatok").innerHTML = xhttp.responseText;
-        }
-      }
-      xhttp.open("GET", "ajax.php?action=ajaxvalasz", true);
-      xhttp.send();
-    }
+
 
 
   </script>
