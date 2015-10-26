@@ -52,25 +52,23 @@
     function mapmegjelenit(adatok){
 
         //alert(adatok);
+        window.adatok = adatok;
 
         var locations = [];
 
-        for(var k in adatok) {
-            for(var y in adatok[k]) {
-                var adat = adatok[k][y];
-                //console.log(y, adatok[k][y]);
-                alert(y + "-> " + adat + "<br>" );
+        for(var adatIndex in adatok) {
+            var tmpAdat = adatok[adatIndex];
+
+            var koordSplit = tmpAdat.koordinata.split(', ');
+            var rowLength = tmpAdat.homersekletek.length;
+            var bubbleString = "<h4>" + tmpAdat.varos_neve + "</h4> <table> ";
+            for(i = 0; i < rowLength; ++i) {
+                bubbleString += "<tr> <td> " + tmpAdat.idopontok[i] + " </td> <td>" + tmpAdat.homersekletek[i] + " </td> </tr>";
             }
+            bubbleString += "</table>";
+            var tmpLocation = [bubbleString, parseFloat(koordSplit[0]), parseFloat(koordSplit[1])];
+            locations.push(tmpLocation);
         }
-
-
-        /*
-        var locations = [
-          ['<h4>Atlanta</h4>', 33.747998, -84.387647],
-          ['<h4>Columbus</h4>', 32.460857, -84.990087],
-          ['<h4>Las Vegas</h4>', 36.172048, -115.139302]
-        ];
-        */
 
         // Setup the different icons and shadows
         var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8d82f6-134c-4af1-8642-41fa8afbef31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,7 +29,7 @@
       <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-0.7352941" vertical-offset="275" max-vertical-offset="1150">
+            <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="350">
+            <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="ajax.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="2597" selection-end="2597" vertical-scroll-proportion="-8.823529" vertical-offset="1200" max-vertical-offset="2750">
+            <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
               <folding>
                 <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
                 <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
@@ -62,7 +61,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="25" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.5714286" vertical-offset="1025" max-vertical-offset="4225">
+            <state line="56" column="18" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.31128848" vertical-offset="1127" max-vertical-offset="4175">
               <folding>
                 <element signature="tag#div#0" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -70,16 +69,16 @@
                 <element signature="e#270#571#0" expanded="true" />
                 <element signature="e#396#441#0" expanded="true" />
                 <element signature="e#481#561#0" expanded="true" />
-                <element signature="e#1988#2298#0" expanded="true" />
-                <element signature="e#2410#2756#0" expanded="true" />
-                <element signature="e#2670#2746#0" expanded="true" />
-                <element signature="e#2812#2847#0" expanded="true" />
-                <element signature="e#3070#3222#0" expanded="true" />
-                <element signature="e#3337#3494#0" expanded="true" />
-                <element signature="e#3369#3482#0" expanded="true" />
-                <element signature="e#3766#4104#0" expanded="true" />
-                <element signature="e#4159#4487#0" expanded="true" />
-                <element signature="e#4245#4400#0" expanded="true" />
+                <element signature="e#2220#2530#0" expanded="true" />
+                <element signature="e#2642#2988#0" expanded="true" />
+                <element signature="e#2902#2978#0" expanded="true" />
+                <element signature="e#3044#3079#0" expanded="true" />
+                <element signature="e#3302#3454#0" expanded="true" />
+                <element signature="e#3569#3726#0" expanded="true" />
+                <element signature="e#3601#3714#0" expanded="true" />
+                <element signature="e#3998#4336#0" expanded="true" />
+                <element signature="e#4391#4719#0" expanded="true" />
+                <element signature="e#4477#4632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,10 +87,8 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="-13.235294" vertical-offset="150" max-vertical-offset="1250">
-              <folding>
-                <element signature="n#__autoload#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,6 +151,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,7 +228,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +310,11 @@
       <created>1445799701598</created>
       <updated>1445799701598</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajax&#10;">
+      <created>1445882386652</created>
+      <updated>1445882386652</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -326,7 +327,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1682641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -334,12 +335,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -359,9 +360,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -381,12 +382,70 @@
     <MESSAGE value="ajax megjelenijk&#10;" />
     <MESSAGE value="google map api&#10;" />
     <MESSAGE value="google map api + ajax adatok + jquery&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="google map api + ajax adatok + jquery&#10;" />
+    <MESSAGE value="ajax&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
+          <folding>
+            <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
+            <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
+            <marker date="1445877490060" expanded="true" signature="2801:2858" placeholder="SELECT varos..varosok..." />
+            <marker date="1445877490060" expanded="true" signature="3842:3978" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="29" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0" vertical-offset="1277" max-vertical-offset="4225">
+          <folding>
+            <element signature="tag#div#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#252#1288#0" expanded="true" />
+            <element signature="e#270#571#0" expanded="true" />
+            <element signature="e#396#441#0" expanded="true" />
+            <element signature="e#481#561#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
@@ -423,16 +482,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,9 +499,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -482,16 +539,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -499,9 +556,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,16 +601,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -563,9 +618,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -610,16 +663,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,9 +680,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,16 +725,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,9 +742,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,16 +780,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,9 +797,7 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="970" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,37 +833,33 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1179" column="37" selection-start="17815" selection-end="17815" vertical-scroll-proportion="0.6083608" vertical-offset="11772" max-vertical-offset="48225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.9411764" vertical-offset="0" max-vertical-offset="350">
-          <folding />
-        </state>
+        <state line="1179" column="37" selection-start="17815" selection-end="17815" vertical-scroll-proportion="0.6083608" vertical-offset="11772" max-vertical-offset="48225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="-0.7352941" vertical-offset="275" max-vertical-offset="1150">
+        <state line="12" column="23" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="-13.235294" vertical-offset="150" max-vertical-offset="1250">
-          <folding>
-            <element signature="n#__autoload#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="24" column="28" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1250">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="2597" selection-end="2597" vertical-scroll-proportion="-8.823529" vertical-offset="1200" max-vertical-offset="2750">
+        <state line="8" column="16" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2750">
           <folding>
             <marker date="1445877490060" expanded="true" signature="142:211" placeholder="SELECT varos..varosok..." />
             <marker date="1445877490060" expanded="true" signature="757:862" placeholder="SELECT idopo..idojaras_adatok..." />
@@ -828,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="25" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.5714286" vertical-offset="1025" max-vertical-offset="4225">
+        <state line="56" column="18" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.31128848" vertical-offset="1127" max-vertical-offset="4175">
           <folding>
             <element signature="tag#div#0" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
@@ -836,16 +879,16 @@
             <element signature="e#270#571#0" expanded="true" />
             <element signature="e#396#441#0" expanded="true" />
             <element signature="e#481#561#0" expanded="true" />
-            <element signature="e#1988#2298#0" expanded="true" />
-            <element signature="e#2410#2756#0" expanded="true" />
-            <element signature="e#2670#2746#0" expanded="true" />
-            <element signature="e#2812#2847#0" expanded="true" />
-            <element signature="e#3070#3222#0" expanded="true" />
-            <element signature="e#3337#3494#0" expanded="true" />
-            <element signature="e#3369#3482#0" expanded="true" />
-            <element signature="e#3766#4104#0" expanded="true" />
-            <element signature="e#4159#4487#0" expanded="true" />
-            <element signature="e#4245#4400#0" expanded="true" />
+            <element signature="e#2220#2530#0" expanded="true" />
+            <element signature="e#2642#2988#0" expanded="true" />
+            <element signature="e#2902#2978#0" expanded="true" />
+            <element signature="e#3044#3079#0" expanded="true" />
+            <element signature="e#3302#3454#0" expanded="true" />
+            <element signature="e#3569#3726#0" expanded="true" />
+            <element signature="e#3601#3714#0" expanded="true" />
+            <element signature="e#3998#4336#0" expanded="true" />
+            <element signature="e#4391#4719#0" expanded="true" />
+            <element signature="e#4477#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
