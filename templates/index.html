@@ -12,12 +12,26 @@
 
     var idk = [];
     function default_map() {
+
+        $.ajax({
+            type : 'POST',
+            dataType: 'json',
+            url : 'ajax.php?action=default_map',
+            data: {
+            'data': 'ezmegaz'
+            },
+            success: function( data ) {
+            //console.log(data);
+            mapmegjelenit(data)
+            }
+        });
+
+
+        /*
         var xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
                 document.getElementById("adatok").innerHTML = xhttp.responseText;
-
-                alert('dsfdsf');
                 $('#adatok').children().each(function(){
                     idk.push(this.id);
                     /*
@@ -25,21 +39,38 @@
                          alert(this.value);
                     });
                     */
+        /*
                 });
                 kiir(idk);
             }
           }
           xhttp.open("GET", "ajax.php?action=default_map", true);
           xhttp.send();
+        */
     }
 
-    function kiir(tomb){
-        // Define your locations: HTML content for the info window, latitude, longitude
+    function mapmegjelenit(adatok){
+
+        //alert(adatok);
+
+        var locations = [];
+
+        for(var k in adatok) {
+            for(var y in adatok[k]) {
+                var adat = adatok[k][y];
+                //console.log(y, adatok[k][y]);
+                alert(y + "-> " + adat + "<br>" );
+            }
+        }
+
+
+        /*
         var locations = [
           ['<h4>Atlanta</h4>', 33.747998, -84.387647],
           ['<h4>Columbus</h4>', 32.460857, -84.990087],
           ['<h4>Las Vegas</h4>', 36.172048, -115.139302]
         ];
+        */
 
         // Setup the different icons and shadows
         var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';
@@ -111,7 +142,6 @@
         }
         autoCenter();
     }
-
 
     function frissites() {
       var xhttp = new XMLHttpRequest();

@@ -29,6 +29,7 @@ switch ($action):
             endforeach;
         endif;
 
+        /*
         $response_tmp = "";
         foreach($arr_varosok as $varos_id => $varos_adatok):
             $response_tmp .= "<div id='$varos_id'>";
@@ -55,6 +56,9 @@ switch ($action):
 
 
         echo $response_tmp;
+        */
+
+        echo json_encode($arr_varosok);
 
         break;
 
