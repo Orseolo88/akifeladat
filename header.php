@@ -21,7 +21,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost'):
     ini_set( "display_errors", "1" );
     error_reporting( E_ALL & ~E_NOTICE );
 elseif ($_SERVER['SERVER_NAME'] == 'vivien2007.hu'):
-	$db = new mysqli('localhost', 'vivi_czshop', 'Kosar6066', 'vivi_czshop');
+	$db = new mysqli('localhost', 'vivi_dxshop', 'Mangalica66', 'vivi_dxshop');
     //hibák elrejtése
     error_reporting(E_ALL ^ E_NOTICE);
     ini_set( "display_errors", "0" );
